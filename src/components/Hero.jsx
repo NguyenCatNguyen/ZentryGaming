@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react'
 import { gsap } from "gsap";
 import { useGSAP} from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Button from './Button.jsx';
 
 
 const Hero = () => {
@@ -23,7 +24,7 @@ const Hero = () => {
         <video
             id="next-video"
             src={getVideoSrc(3)}
-            className='size-64 original-center scale-100 object-cover object-center border-[1px] border-black rounded-xl'
+            className='absolute-center size-64 original-center scale-100 object-cover object-center border-[1px] border-black rounded-xl z-50'
             />
         <h1 className='hero-heading absolute bottom-5 right-5 z-40 text-blue-75'>
             G<b>a</b>me
@@ -34,6 +35,7 @@ const Hero = () => {
                     <p className='mb-5 max-w-64 font-robert-regular text-blue-100'>
                         Enter the Metagame Layer <br /> Unleash the Play Economy
                     </p>
+                    <Button title="watch trailer" />
                 </div>
         </div>
     </div>
