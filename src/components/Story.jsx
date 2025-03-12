@@ -55,7 +55,7 @@ const Story = () => {
           <div className='story-img-container'>
             <div className='story-img-mask'>
               <div className='story-img-content'>
-                <img src="/img/entrance.webp" alt="etrance" 
+                <img src="/ZentryGaming/img/entrance.webp" alt="etrance" 
                   className='object-contain'
                   onMouseLeave={handleMouseLeave}
                   onMouseUp={handleMouseLeave}

@@ -160,6 +160,10 @@ body {
   .contact-clip-path-2 {
     clip-path: polygon(29% 15%, 85% 30%, 50% 100%, 10% 64%);
   }
+
+  .footer-text {
+    @apply text-3xl text-center m-0 leading-0;
+  }
 }
 
 .indicator-line {
@@ -186,8 +190,7 @@ body {
   }
 }
 
-/* From Uiverse.io by G4b413l */
-/* https://uiverse.io/G4b413l/tidy-walrus-92 */
+
 .three-body {
   --uib-size: 35px;
   --uib-speed: 0.8s;

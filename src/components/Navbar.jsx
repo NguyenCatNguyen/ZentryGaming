@@ -6,6 +6,7 @@ import Button from "./Button.jsx";
 import { useWindowScroll } from "react-use";
 
 
+
 const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 
 const Navbar = () => {
@@ -73,7 +74,7 @@ const Navbar = () => {
         <header className="absolute top-1/2 w-full -translate-y-1/2">
             <nav className="flex size-full items-center justify-between p-4">
                 <div className="flex items-center gap-7">
-                    <img src="/img/logo.png" alt="logo" className="w-10" />
+                    <img src="/ZentryGaming/img/logo.png" alt="logo" className="w-10" />
                     <Button
                         id="product-button"
                         title="Products"
@@ -97,7 +98,7 @@ const Navbar = () => {
                         <audio
                             ref={audioRef}
                             className="hidden"
-                            src="/audio/loop.mp3"
+                            src="/ZentryGaming/audio/loop.mp3"
                             loop/>
 
                             {/* Create line animation  */}
