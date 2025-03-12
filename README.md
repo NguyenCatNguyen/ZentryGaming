@@ -1,45 +1,39 @@
 # ⚡️⚡️ Zentry ⚡️⚡️
-- **TechStack**: React, Tailwind CSS, GSAP
-- **Purpose**: this project is a clone of the Zentry website. The purpose of this project is to showcase my understanding of React, Tailwind CSS, and GSAP. As well as to practice my front-end development skills.
+- **Tech Stack**: React, Tailwind CSS, GSAP
+- **Purpose**: This project is a clone of the [Zentry](https://zentry.com) website. The goal is to demonstrate my proficiency with React, Tailwind CSS, and GSAP while honing my front-end development skills.
 
 ### Quick Start
-View the website locally on your machine
-1. Clone the repository
-    - `gh repo clone NguyenCatNguyen/ZentryGaming`
+Visit my webstite
+- [Zentry Gaming](https://nguyencatnguyen.github.io/ZentryGaming/)
+Run the website locally on your machine:
+1. **Clone the Repository**
+   - `gh repo clone NguyenCatNguyen/ZentryGaming`
    - `cd ZentryGaming`
-2. Installation
+2. **Installation**
    - `npm install`
-3. Run the Project
-   -  `npm run dev`
- 
-### 🛠️ Package Setup 
-##### ⭐️ Tailwind CSS 
+3. **Run the Project**
+   - `npm run dev`
+
+### 🛠️ Package Setup
+##### ⭐️ Tailwind CSS
 - `npm install tailwindcss @tailwindcss/vite`
-- Use for styling the website
+- Used for styling the website.
 ##### ⭐️ React Icons
 - `npm install react-icons --save`
-- Use for adding icons to the website
+- Used for adding icons to the website.
 ##### ⭐️ GSAP
 - `npm install gsap @gsap/react`
-- Use for animations
-##### ⭐️ReactUse
+- Used for animations.
+##### ⭐️ ReactUse
 - `npm install react-use`
-- Use for custom hooks
-
+- Used for custom hooks.
 
 ### ✨ Features
-- **Clip Path Shaped Animations** using `CSS clip-path maker` to create custom shapes. Combine with `GSAP` animations to create unique scrolling effects.
-- **Responsive Design** ensure adaptation on all devices.
-- **Video Transistions** using GSAP to create smooth transition between video elements. 
-
-### React Notes
-##### 🪝 useRef
-- `useRef` is used to access the `DOM element` (any piece of a webpage like button, header, input field) directly without the need to re-render the pages. 
-- It like a remote control for that DOM element.
-
+- **Clip Path Shaped Animations**: Utilizes `CSS clip-path maker` to create custom shapes, combined with `GSAP` for unique scrolling effects.
+- **Responsive Design**: Ensures compatibility and adaptation across all devices.
+- **Video Transitions**: Implements GSAP for smooth transitions between video elements.
+- **Scrolling Animations**: Leverages GSAP to deliver seamless scrolling effects.
 
 ### ⚠️ Disclaimer
-- This project is credit to [Zentry](https://zentry.com).
-- This project is for educational purposes only and not for commercial use.
- 
-
+- This project is inspired by and credits [Zentry](https://zentry.com).
+- It is intended solely for educational purposes and not for commercial use.
